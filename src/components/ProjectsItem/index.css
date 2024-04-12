@@ -1,0 +1,18 @@
+.list-items {
+  background-color: #e2e8f0;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 250px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  padding-left: 10px;
+}

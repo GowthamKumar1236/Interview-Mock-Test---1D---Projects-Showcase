@@ -1,0 +1,78 @@
+.bg-container {
+  background-color: #f1f5f9;
+  padding: 80px;
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+.select-container {
+  width: 450px;
+  height: 38px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.option-list {
+  font-family: "Roboto";
+
+}
+
+.projects-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.failure-img {
+  width: 250px;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #475569;
+  font-weight: 500;
+}
+
+.failure-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.retry-button {
+  background-color: #328af2;
+  border-radius: 3px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+  width: 70px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
